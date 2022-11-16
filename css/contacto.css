@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #bc4e9c;
+     /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, hsla(7, 7, 7, 0.459), rgba(59, 61, 60, 0.664)), url(../img/Inicio.jpg);
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, rgba(7, 7, 7, 0.459), rgba(59, 59, 56, 0.664)), url(../img/Inicio.jpg);
+     background-size:cover; /*Para adaptarse al tamaño*/
+     background-attachment:fixed;
+     position:relative;
+}
+
+nav{
+    text-align:right;
+    padding:30px 50px 0 0;
+}
+
+nav > a {
+    color:#fff;
+    font-weight:300px;
+    text-decoration:none;
+    margin-right:10px;
+}
+
+nav > a:hover{
+      text-decoration:underline;
+}
+
+header .textos-header{
+    display:flex;
+    height:400px;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+}
+
+.textos-header h1{
+    font-size:50px;
+    color:white;
+}
+
+.textos-header h2{
+    font-size:30px;
+    font-weight:300%;
+    color:white;
+
+}
+
+.wave{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+main .sobre-nosotros{
+    padding:30px 0 60px 0;
+}
+
+.contenedor-sobre-nosotros{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width:48%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width:48%;
+}
+
+.contenido-textos h3{
+    margin:15px;
+}
+
+.contenido-textos h3 span{
+    background:#000000;
+    color:#fff;
+    border-radius:50%;
+    display:inline-block;
+    text-align:center;
+    width:30px;
+    height:30px;
+    padding:2px;
+    box-shadow:0 0 6px rgba(0,0, 0, 5);
+    margin-right:5px;
+}
+
+.contenido-textos p{
+    padding:0 0 30 15;
+    font-weight:300;
+    text-align:justify;
+}
+
+
+.cards{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.cards .card{
+    background:#000000;
+    display:flex;
+    width:10%;
+    height:300x;
+    align-items:center;
+    justify-content:space-evenly;
+    border-radius:5px;
+    box-shadow:0 0 6px 0 rgba(0,0, 0, 6);
+}
+
+.cards .card > .contenido-texto-card{
+    width:95%;
+    color: #f2f2f2;;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight:300;
+    padding-top:5px;
+}
+
+
+
+
+
+.cards12{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.cards12 .card12{
+    background:#000000;
+    display:flex;
+    width:100%;
+    height:300x;
+    align-items:center;
+    justify-content:space-evenly;
+    border-radius:5px;
+    box-shadow:0 0 6px 0 rgba(0,0, 0, 6);
+}
+
+.cards12 .card12 > .contenido-texto-card12{
+    width:100%;
+    color: #f2f2f2;;
+}
+
+.cards12 .card12 > .contenido-texto-card12 p{
+    font-weight:250;
+    padding-top:5px;
+}
+
+
+
+
+.cardsface{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.cardsface .cardface{
+    background:#000000;
+    display:flex;
+    width:10%;
+    height:60px;
+    align-items:center;
+    justify-content:space-evenly;
+    border-radius:5px;
+    box-shadow:0 0 6px 0 rgba(0,0, 0, 6);
+}
+
+.cardsface .cardface img{
+    width:50px;
+    height:50px;
+    object-fit:cover;
+    border:3px solid #fff;
+    border-radius:50%;
+    display:block;
+}
+
+.cardsface .cardface > .contenido-texto-cardface{
+    width:60%;
+    color:#fff;
+}
+
+.cardsface .cardface > .contenido-texto-cardface p{
+    font-weight:300;
+    padding-top:5px;
+}
+
+
+
+
+.cardsinsta{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.cardsinsta .cardinsta{
+    background:#000000;
+    display:flex;
+    width:10%;
+    height:60px;
+    align-items:center;
+    justify-content:space-evenly;
+    border-radius:5px;
+    box-shadow:0 0 6px 0 rgba(0,0, 0, 6);
+}
+
+.cardsinsta .cardinsta img{
+    width:50px;
+    height:50px;
+    object-fit:cover;
+    border:3px solid #fff;
+    border-radius:50%;
+    display:block;
+}
+
+.cardsinsta .cardinsta > .contenido-texto-cardinsta{
+    width:60%;
+    color:#fff;
+}
+
+.cardsinsta .cardinsta > .contenido-texto-cardinsta p{
+    font-weight:300;
+    padding-top:5px;
+}
+
+
+footer{
+    background:#000000;
+    padding:60px 0 30px 0;
+    margin:auto;
+    overflow:hidden;
+}
